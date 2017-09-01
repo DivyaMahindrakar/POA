@@ -1,0 +1,73 @@
+html,body {
+  height:100%;
+  background-color:#D3D3D3;
+    
+}
+.navbar-header img{
+width:80px;
+height:40px;
+
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+
+}
+
+.affix-top {
+  /* navbar style at top */
+  background:transparent;
+  border-color:transparent;
+  padding: 15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease; 
+  -o-transition:all 0.5s ease;         
+  transition:all 0.5s ease;  
+}
+
+.affix-top .nav>li>a {
+   font-size:18px;
+   color: #ffffff;
+}
+
+.affix-top .nav>li>a:hover {
+   color: #ffb6c1;
+}
+
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:initial;
+}
+
+.first {
+  padding-top:140px;
+  height:70%;
+  min-height:400px;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  background-image:url('../images/food3.jpg');
+}
+
+.input-group{
+    padding-top: 50px;
+    position:center;
+}
+
+#sideNav {
+     border-radius: 25px;
+     border: 1px solid orange;
+    padding-left:-40px;
+   background-color:#ffffff;
+    width:25%;
+    position: absolute;
+    height: 100%;
+}
+
+h3{
+color:#ffa500;
+font-weight:15px;
+
+}
